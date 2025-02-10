@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-intn main(){
+int main(){
     int a,b;
     char ch;
     scanf("%d %d %c",&a,&b,&ch);
@@ -8,7 +8,8 @@ intn main(){
     else if (ch=='-'){printf("%d",a-b);}
     else if (ch=='*'){printf("%d",a*b);}
     else if (ch=='/'){
-        if(b==0){printf("error");}
+        if(b==0){printf("error");
+        }
         else if(a%b==0){printf("%d",a/b);}
     }
     else{printf("error");}
