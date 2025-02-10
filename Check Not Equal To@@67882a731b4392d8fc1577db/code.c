@@ -4,7 +4,7 @@ int main(){
     float a,b;
     scanf("%f%f",&a,&b);
     if(a!=b){
-        print("True");
+        printf("True");
     }
     else{
         printf("False");
