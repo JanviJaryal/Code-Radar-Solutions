@@ -9,6 +9,6 @@ int main(){
     printf("Age: %d\n",age);
     char hobby[100];
     scanf("%s",&hobby);
-    printf("Hobby; %s",hobby);
+    printf("Hobby: %s",hobby);
     return 0;
 }
