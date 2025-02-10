@@ -3,9 +3,11 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n<=0){printf("Frezzing");
+    if(n<=0)
+    {
+printf("Freezing");
     }
     else{
-        printf("Above Frezzing");
+        printf("Above Freezing");
     }
 }
