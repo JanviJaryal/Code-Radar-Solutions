@@ -8,6 +8,6 @@ int main(){
         printf("Set");
     }
     else{
-        printf("No Set");
+        printf("Not Set");
     }
 }
