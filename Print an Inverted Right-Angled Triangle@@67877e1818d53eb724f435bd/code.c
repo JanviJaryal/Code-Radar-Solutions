@@ -1,11 +1,16 @@
 #include <stdio.h>
 
-void main() {
-    int n = 5; 
+int main() {
+    int N;
+    printf("");
+    scanf("%d",&N)
 
-    for (int i = n; i > 0; i--) {  
+    for (int i = N; i > 0; i--) {  
         for (int j = 0; j < i; j++) {  
             printf("* ");
         }
         printf("\n");  
     }
+    return 0;
+}
+    
